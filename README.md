@@ -16,7 +16,9 @@ The dataset contains **336,776** flight records with **21 columns**. Each record
 - Origin and destination airports
 - Flight duration and distance
 - Additional metadata such as hour, minute, and airline name
+  
 This rich dataset enables thorough analysis of flight delays, airline performance, and time-based trends.
+
 ---
 ## Setup Instructions
 1. Import the dataset into your PostgreSQL database by running the SQL script located at:  
