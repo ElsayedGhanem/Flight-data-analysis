@@ -12,8 +12,8 @@ The dataset contains flight records with fields such as departure/arrival times,
 
 ---
 ## Setup Instructions
-1. Import the dataset into your PostgreSQL database by running the SQL script:  
-   `Flight Analysis.sql`
+1. Import the dataset into your PostgreSQL database by running the SQL script located at:  
+   `Postgres/Flight Analysis.sql`
    
 3. This single script includes the following sections which you can run step-by-step or all at once:
 
@@ -42,3 +42,9 @@ If you want to run queries separately, you can copy and paste the desired query 
   - **EWR to OKC** with an average delay of **30.57 minutes** over **346 flights**.
   - **LGA to BHM** with an average delay of **29.78 minutes** over **296 flights**.
 ---
+
+## Tools Used
+
+- PostgreSQL for database management and querying  
+- SQL for data extraction and analysis
+- ---
