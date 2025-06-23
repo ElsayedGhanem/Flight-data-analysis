@@ -8,8 +8,15 @@ The analysis focuses on flight delays, airline performance, and time-based trend
 
 ---
 ## Data Description 
-The dataset contains flight records with fields such as departure/arrival times, delays (in minutes), origin/destination airports, carriers, etc.
+The dataset contains **336,776** flight records with **21 columns**. Each record includes detailed information such as:
 
+- Flight dates and times (departure, scheduled departure, arrival, scheduled arrival)
+- Delay times (departure delay, arrival delay)
+- Flight identifiers (flight number, tail number, carrier)
+- Origin and destination airports
+- Flight duration and distance
+- Additional metadata such as hour, minute, and airline name
+This rich dataset enables thorough analysis of flight delays, airline performance, and time-based trends.
 ---
 ## Setup Instructions
 1. Import the dataset into your PostgreSQL database by running the SQL script located at:  
