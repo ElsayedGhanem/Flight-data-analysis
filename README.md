@@ -11,12 +11,25 @@ The analysis focuses on flight delays, airline performance, and time-based trend
 The dataset contains flight records with fields such as departure/arrival times, delays (in minutes), origin/destination airports, carriers, etc.
 
 ---
-## Setup Instructions 
-1. Import the dataset into your PostgreSQL database (instructions in `sql/01_load_data.sql`)
-2. Run queries in order:
-   - Basic queries: `sql/02_basic_queries.sql`
-   - Time-based analysis: `sql/03_time_analysis.sql`
-   - Airline & route analysis: `sql/04_airline_analysis.sql` and `sql/05_route_analysis.sql`
+## Setup Instructions
+1. Import the dataset into your PostgreSQL database by running the SQL script:  
+   `Flight Analysis.sql`
+   
+3. This single script includes the following sections which you can run step-by-step or all at once:
+
+   - Table creation and data import setup.
+   - Basic queries (e.g., top airlines by flight count).
+   - Time-based analysis (e.g., average delays by month and hour).
+   - Airline and route performance analysis (e.g., delays by airline and frequent delay routes).
+   - Additional analysis such as correlation between departure and arrival delays.
+
+4. You can run the entire script or execute the queries individually to explore the data.
+
+---
+
+**Note:**  
+If you want to run queries separately, you can copy and paste the desired query sections from the script file
+
 ---
 
 ## Key Insights
