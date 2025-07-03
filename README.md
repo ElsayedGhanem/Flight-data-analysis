@@ -45,7 +45,7 @@ If you want to run queries separately, you can copy and paste the desired query 
 - Morning flights have lower average delays compared to evenings.
 - Airline F9 tends to have the highest departure delays.
 - The routes with the highest average departure delays are
-- **EWR to TYS** with an average delay of **41.82 minutes** over **323 flights**.
+   - **EWR to TYS** with an average delay of **41.82 minutes** over **323 flights**.
   - **EWR to CAE** with an average delay of **36.34 minutes** over **104 flights**.
   - **EWR to TUL** with an average delay of **34.91 minutes** over **315 flights**.
   - **EWR to OKC** with an average delay of **30.57 minutes** over **346 flights**.
